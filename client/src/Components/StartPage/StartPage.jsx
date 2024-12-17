@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Importation de Link
+import { Link } from "react-router-dom";
 import "./StartPage.css";
 
 const StartPage = () => {

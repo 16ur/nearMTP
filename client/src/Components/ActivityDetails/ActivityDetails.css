@@ -1,0 +1,67 @@
+.activity-details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-button {
+  background-color: #ff7e5f;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #ff6347;
+}
+
+.details-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.details-image {
+  width: 40%;
+  object-fit: cover;
+}
+
+.details-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.details-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.details-link {
+  display: inline-block;
+  color: #a32857;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+.details-phone {
+  font-size: 1rem;
+  color: #333;
+}

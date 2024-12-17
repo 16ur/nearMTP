@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import "./SearchActivities.css";
 
 const SearchActivities = () => {
@@ -7,6 +8,8 @@ const SearchActivities = () => {
   const [category, setCategory] = useState("");
   const [activities, setActivities] = useState([]);
   const [loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
 
   const fetchActivities = async (keyword = "", category = "") => {
     setLoading(true);
@@ -35,6 +38,10 @@ const SearchActivities = () => {
 
   return (
     <div className="search-container">
+      <button className="back-button" onClick={() => navigate("/")}>
+        Retour à l'accueil
+      </button>
+
       <h1 className="app-title">Activités près de Montpellier</h1>
 
       <div className="form-container">
@@ -66,15 +73,23 @@ const SearchActivities = () => {
 
       <div className="grid-container">
         {activities.map((activity) => (
-          <div className="card" key={activity.id}>
-            <img
-              src={activity.image}
-              alt={activity.name}
-              className="card-image"
-            />
+          <div className="card" key={activity._id || activity.id}>
+            {activity.image && (
+              <img
+                src={`http://localhost:3001${activity.image}`}
+                alt={activity.name}
+                className="card-image"
+              />
+            )}
             <div className="card-content">
               <h3 className="card-title">{activity.name}</h3>
               <p className="card-description">{activity.description}</p>
+              <button
+                className="details-button"
+                onClick={() => navigate(`/activities/${activity._id}`)}
+              >
+                Voir les détails
+              </button>
             </div>
           </div>
         ))}
