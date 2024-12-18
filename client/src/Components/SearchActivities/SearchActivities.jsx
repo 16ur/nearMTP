@@ -62,8 +62,9 @@ const SearchActivities = () => {
           className="select-field"
         >
           <option value="">Toutes les catégories</option>
-          <option value="Aventure">Aventure</option>
-          <option value="Culture">Culture</option>
+          <option value="Aventure">Aventure 🌳</option>
+          <option value="Culture">Culture 📜</option>
+          <option value="En duo">En duo 💑</option>
         </select>
       </div>
 

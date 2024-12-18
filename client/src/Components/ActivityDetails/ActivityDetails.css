@@ -2,6 +2,8 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .back-button {
@@ -12,6 +14,8 @@
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
@@ -31,22 +35,28 @@
 .details-image {
   width: 40%;
   object-fit: cover;
+  height: auto;
 }
 
 .details-content {
   padding: 20px;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .details-title {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #333;
 }
 
 .details-description {
   font-size: 1.1rem;
   color: #555;
   margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .details-link {
@@ -64,4 +74,65 @@
 .details-phone {
   font-size: 1rem;
   color: #333;
+  margin-bottom: 10px;
+}
+
+.details-address {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.details-address-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.details-address-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    flex-direction: column;
+  }
+
+  .details-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .details-title {
+    font-size: 1.8rem;
+  }
+
+  .details-description {
+    font-size: 1rem;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-container {
+    padding: 10px;
+  }
+
+  .details-title {
+    font-size: 1.5rem;
+  }
+
+  .details-description,
+  .details-phone,
+  .details-address {
+    font-size: 0.9rem;
+  }
+
+  .back-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
 }
