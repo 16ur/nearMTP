@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "6761850377655bc96574650b"
+  },
+  "name": "Fort-Boyard Aventure",
+  "category": "Aventure",
+  "description": "Fort Boyard Aventures est le premier action game officiel développé avec les producteurs de l'émission culte. En équipe de 2 à 4 relevez pas moins de 30 défis dans des cellules reconstituées.",
+  "image": "/uploads/fort_boyard.jpg",
+  "date": {
+    "$date": "2024-12-17T14:04:51.388Z"
+  },
+  "__v": 0,
+  "address": "Pôle Ludique, Centre Commercial Odysseum, 34000 Montpellier",
+  "phone": "01 89 71 55 83",
+  "website_link": "https://www.fortboyardaventures.fr/montpellier/"
+},
+{
+  "_id": {
+    "$oid": "6761869177655bc96574651e"
+  },
+  "name": "Planet Océan",
+  "category": "Aventure",
+  "description": "A la rencontre du merveilleux, laissez-vous captiver par la rencontre passionnante d’animaux inconnus, menacés, protégés ou tout simplement magnifiques.",
+  "image": "/uploads/planet_ocean.jpg",
+  "date": {
+    "$date": "2024-12-17T14:11:29.776Z"
+  },
+  "__v": 0,
+  "website_link": "https://www.planetoceanworld.fr/",
+  "phone": "04 67 13 05 50",
+  "address": "Allée Ulysse Odysseum, 34000 Montpellier"
+},
+{
+  "_id": {
+    "$oid": "67618e52e3dfc74d89db85a8"
+  },
+  "name": "Site d'escalade du Joncas",
+  "category": "Aventure",
+  "description": "Situé sur la commune de Montpeyroux, au pied du Mont St-Baudille, se trouve le canyon asséché du Joncas, un ruisseau qui prend sa source sur les contreforts de la chaîne de la Séranne. ",
+  "image": "/uploads/le_joncas.jpg",
+  "date": {
+    "$date": "2024-12-17T14:44:34.667Z"
+  },
+  "__v": 0,
+  "address": "D122, 34150 Montpeyroux"
+},
+{
+  "_id": {
+    "$oid": "67619167e3dfc74d89db85b4"
+  },
+  "name": "Musée Fabre",
+  "category": "Culture",
+  "description": "Les beaux-arts sont au rendez-vous. Le musée Fabre est le principal musée des beaux-arts de Montpellier. Découvrez l’ensemble de ses expositions, collections, acquisitions, peintures, sculptures…",
+  "image": "/uploads/musee_fabre.png",
+  "date": {
+    "$date": "2024-12-17T14:57:43.413Z"
+  },
+  "__v": 0,
+  "address": "Boulevard Bonne Nouvelle 34000 Montpellier",
+  "phone": "04 67 14 83 00",
+  "website_link": "https://www.museefabre.fr/"
+},
+{
+  "_id": {
+    "$oid": "6761959fe3dfc74d89db85c4"
+  },
+  "name": "Opéra Comédie",
+  "category": "Culture",
+  "description": "Un espace incontournable de la ville. L’Opéra Comédie est un théâtre à l’italienne construit au XVIIIe siècle. Siège de l’Opéra Orchestre National, fort de 93 musiciens et d’un chœur de 31 artistes, la structure dispose d’un répertoire très large qui s’étend de la musique baroque à la musique contemporaine et du lyrique au symphonique.",
+  "image": "/uploads/opera_comedie.jpg",
+  "date": {
+    "$date": "2024-12-17T15:15:43.748Z"
+  },
+  "__v": 0,
+  "address": "Pl. de la Comédie",
+  "phone": "04 67 60 19 99",
+  "website_link": "https://www.opera-orchestre-montpellier.fr/"
+},
+{
+  "_id": {
+    "$oid": "6762a395e699bce61af262df"
+  },
+  "name": "Massage duo",
+  "category": "En duo",
+  "description": "Les Rituels d’Ô c’est un lieu de détente et de bien-être où chaque instant vous est consacré. Nous vous accueillons dans un univers chaleureux et intimiste à Montpellier et prenons soin de vous et de ceux que vous aimez.",
+  "image": "/uploads/massage_duo.jpg",
+  "address": "1110 avenue de Saint-Maur",
+  "phone": "07 66 85 34 20",
+  "website_link": "https://www.lesrituelsdo.fr/"
+},
+{
+  "_id": {
+    "$oid": "6762a4dee699bce61af262e1"
+  },
+  "name": "Le Spinaker",
+  "category": "En duo",
+  "description": "Situé au cœur du port de plaisance de Port Camargue, au Grau du Roi, dans le Gard, Le Spinaker offre un cadre exceptionnel pour vos événements d'entreprise. Que vous arriviez en bateau, grâce à notre ponton de 60 mètres de long, en voiture par un accès direct par l'A9 ou en avion, l'aéroport de Montpellier à 15 minutes, notre établissement 4 étoiles vous accueille dans un cadre raffiné. ",
+  "image": "/uploads/spinaker.png",
+  "address": "Port de Carnon, place Cassan, 34280 Mauguio-Carnon",
+  "phone": "04 66 53 36 37",
+  "website_link": "https://www.spinaker.com"
+}]
